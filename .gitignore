@@ -1,0 +1,25 @@
+# 忽略 node_modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native 特定檔案
+android/app/build/
+ios/Pods/
+ios/build/
+*.xcworkspace
+
+# Firebase 配置
+.env
+google-services.json
+ios/GoogleService-Info.plist
+
+# FFmpeg 臨時影片文件
+*.mp4
+*.mov
+*.avi
+*.flv
+*.mkv
+
+# VS Code 設定檔
+.vscode/
